@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "last 2 versions"
+        },
+        // "modules": false,
+        "loose": false
+      }
+    ]
+  ],
+  // "sourceType": "unambiguous",
+  "plugins": ["transform-class-properties", "@babel/plugin-transform-runtime"],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}
+
