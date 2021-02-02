@@ -1,7 +1,7 @@
 1. Clone the app from the repository
 
 2. Go into the project folder
-     cd NewsApp
+       cd NewsApp
 
 3.  Install dependencies:
         npm install
