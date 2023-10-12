@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "author": "",
   "engines": {
-    "node": "10.x.x"
+    "node": "18.x.x"
   },
   "repository": "",
   "main": "app.js",
